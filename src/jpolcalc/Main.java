@@ -1,16 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package jpolcalc;
 
 import java.awt.EventQueue;
 import javax.swing.UIManager;
 
 /**
- * Main class and caller for our new program window
- * @author stas
+ * Main window class - starts calculator window
+ * @author  Stas SUSHKOV
  */
 public class Main {
 
@@ -33,17 +28,10 @@ public class Main {
                 }
 
                 // Create our window and set it visible
-                new MainWindow().setVisible(true);
+                new Calculator().setVisible(true);
             }
         });
         
     }
-
-    private javax.swing.JLabel Pol1Label;
-    private javax.swing.JLabel Pol2Label;
-    private javax.swing.JTextField Pol1Input;
-    private javax.swing.JTextField Pol2Input;
-    private javax.swing.JLabel startLabel;
-    private javax.swing.JButton startButton;
 
 }

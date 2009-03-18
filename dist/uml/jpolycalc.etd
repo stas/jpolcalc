@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE XMI SYSTEM "/home/stas/.netbeans/6.5/.uml/config/UML_2.0EMBT.dtd"> --><XMI xmlns:UML="omg.org/UML/1.4" xmi.version="2.0"> <XMI.header> <XMI.metamodel xmi.name="UML" xmi.version="1.4"/> <XMI.documentation> <XMI.exporter> Embarcadero's Describe </XMI.exporter> <XMI.exporterVersion> 6.0 </XMI.exporterVersion> </XMI.documentation> </XMI.header> <XMI.content> <UML:Project xmi.id="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C" projVersion="6.1.4.837" name="jpolycalc"><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.B8FF3A0D-0DBD-556B-9C44-C9104565F9D2" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C" name="documentation">
+<UML:TaggedValue.dataValue>&lt;p style="margin-top: 0"&gt;
+  
+    &lt;/p&gt;</UML:TaggedValue.dataValue><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.33AB0DE4-5593-316D-511B-845D0E441CDE" owner="DCE.B8FF3A0D-0DBD-556B-9C44-C9104565F9D2" name="documentation">
+<UML:TaggedValue.dataValue>Check the javadoc from the distribution archive.</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:TaggedValue>
+<UML:Class xmi.id="DCE.420D966E-58E1-3278-5388-7477150AC90C" name="Main" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C" clientDependency="DCE.ACC3A596-73AF-1B36-170C-99E2A8BE990B"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+
+<UML:Operation xmi.id="DCE.882C521C-19E9-8AED-38B7-F38C8646E0A9" name="main" owner="DCE.420D966E-58E1-3278-5388-7477150AC90C" isStatic="true"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.C2804057-E29F-B3CF-2581-7C5ED8764B9D" type="DCE.1A3CF310-D6E5-B654-2751-C4679C4DC572" direction="result" owner="DCE.882C521C-19E9-8AED-38B7-F38C8646E0A9"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.4DC15CF1-05AB-98D8-F98E-E33524B800DA"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.698B5AF4-617D-7C4C-5BC2-575B35A71E7E" type="DCE.D7DE753F-FA90-5653-4254-DA852E1FBC48" name="args" owner="DCE.882C521C-19E9-8AED-38B7-F38C8646E0A9" alias="" direction="out" kind="addressOf"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.3CB903F1-6EB9-F262-3803-6CDE3E3ADBCC"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.7669B668-2F80-1061-BDE8-9E8324FBB81A" owner="DCE.882C521C-19E9-8AED-38B7-F38C8646E0A9" name="documentation">
+<UML:TaggedValue.dataValue>the command line arguments</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation>
+
+<UML:TaggedValue xmi.id="DCE.CFE05941-3B89-E1B2-2026-F0BF3C5E732B" owner="DCE.420D966E-58E1-3278-5388-7477150AC90C" name="documentation">
+<UML:TaggedValue.dataValue>M&amp;#0;a&amp;#0;i&amp;#0;n&amp;#0; &amp;#0;w&amp;#0;i&amp;#0;n&amp;#0;d&amp;#0;o&amp;#0;w&amp;#0; &amp;#0;c&amp;#0;l&amp;#0;a&amp;#0;s&amp;#0;s&amp;#0; &amp;#0;-&amp;#0; &amp;#0;s&amp;#0;t&amp;#0;a&amp;#0;r&amp;#0;t&amp;#0;s&amp;#0; &amp;#0;c&amp;#0;a&amp;#0;l&amp;#0;c&amp;#0;u&amp;#0;l&amp;#0;a&amp;#0;t&amp;#0;o&amp;#0;r&amp;#0; 
+    &amp;#0;w&amp;#0;i&amp;#0;n&amp;#0;d&amp;#0;o&amp;#0;w&amp;#0;</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Classifier.generalization>
+<UML:Generalization xmi.id="DCE.A275CF7A-4F17-400C-62F9-CFF52EF823AD" specific="DCE.420D966E-58E1-3278-5388-7477150AC90C" general="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.presentation>
+</UML:Element.presentation></UML:Generalization></UML:Classifier.generalization></UML:Class>
+<UML:DataType xmi.id="DCE.373EE8D9-5C4B-6300-A5E7-02510D9E3168" name="int" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C"/>
+<UML:DataType xmi.id="DCE.1A3CF310-D6E5-B654-2751-C4679C4DC572" name="void" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C"/>
+<UML:DataType xmi.id="DCE.D7DE753F-FA90-5653-4254-DA852E1FBC48" name="String[]" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C"/>
+<UML:Class xmi.id="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D" name="Calculator" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C" clientDependency="DCE.991192B6-7F21-284E-E218-B1A9905F3A76" specialization="DCE.A275CF7A-4F17-400C-62F9-CFF52EF823AD"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Attribute xmi.id="DCE.3F3A95BF-A06E-6B83-C78B-2A691D8472DB" visibility="private" name="pol1Input" type="DCE.22ABA9B9-99C2-B30A-78BC-4D9B07EC9D43" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.DEBF52BF-2B0F-F3E6-A511-ED3561DDD595"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.C773849B-E4C7-745A-FC41-8281B0E4C24D"/></UML:Attribute.default><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.6DA88B6F-E88A-D4F6-C431-9667D8CA16F1" owner="DCE.3F3A95BF-A06E-6B83-C78B-2A691D8472DB" name="documentation">
+<UML:TaggedValue.dataValue>Input for our input for polinom #1</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Attribute>
+<UML:Attribute xmi.id="DCE.32382F93-6924-7A46-B8C2-67E429951E59" visibility="private" name="pol2Input" type="DCE.22ABA9B9-99C2-B30A-78BC-4D9B07EC9D43" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.2968DCB8-8992-349D-A992-3870760C6456"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.27501194-133C-F26A-C867-18B055043C3A"/></UML:Attribute.default><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.29CC691E-8A48-46F5-70E7-A5EAC1217CC7" owner="DCE.32382F93-6924-7A46-B8C2-67E429951E59" name="documentation">
+<UML:TaggedValue.dataValue>Input for our input for polinom #2</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Attribute>
+<UML:Attribute xmi.id="DCE.9FF95045-1421-6E85-993E-0C813F1C354E" visibility="private" name="plusRButton" type="DCE.1DA67F8E-4DA3-4B70-EDBF-A9CA200CC324" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.12535F0B-83D2-3118-9F52-89E90E9198C6"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.49D8FB97-C49A-B327-DC23-19A7A442ED02"/></UML:Attribute.default><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.B22F0F36-DDA6-EB10-4060-EA584C22B5E7" owner="DCE.9FF95045-1421-6E85-993E-0C813F1C354E" name="documentation">
+<UML:TaggedValue.dataValue>Component for our radio button used for defining the operation: summing</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Attribute>
+<UML:Attribute xmi.id="DCE.FDCA4358-CFDA-B322-4FC0-F4C393860A30" visibility="private" name="minRButton" type="DCE.1DA67F8E-4DA3-4B70-EDBF-A9CA200CC324" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.AA2E5427-D9A5-7B10-E662-FC816F4146B9"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.0316FE0B-ABEE-2454-FC10-841CD1ECCB9A"/></UML:Attribute.default><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.10941293-4A4F-4053-188B-CC29B0A88217" owner="DCE.FDCA4358-CFDA-B322-4FC0-F4C393860A30" name="documentation">
+<UML:TaggedValue.dataValue>Component for our radio button used for defining the operation: minus</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Attribute>
+<UML:Attribute xmi.id="DCE.1AE3D134-FCA9-1BB8-E9FD-5F258CC7FD8C" visibility="private" name="multRButton" type="DCE.1DA67F8E-4DA3-4B70-EDBF-A9CA200CC324" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.8D64917C-AC28-2F97-A4A4-01D70A2D3344"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.E74673B4-1FFF-34B9-6736-DC42822652A7"/></UML:Attribute.default><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.4BC6F037-6058-BC73-7630-4F99789E0A9C" owner="DCE.1AE3D134-FCA9-1BB8-E9FD-5F258CC7FD8C" name="documentation">
+<UML:TaggedValue.dataValue>Component for our radio button used for defining the operation: 
+    multiplication</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Attribute>
+<UML:Attribute xmi.id="DCE.BCC8BD7B-990E-6462-156A-EDDC978EF75B" visibility="private" name="difRButton" type="DCE.1DA67F8E-4DA3-4B70-EDBF-A9CA200CC324" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.E4E2D73A-0DAF-77DE-758D-8794E627EE40"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.09591F6D-CE1E-A6EE-6D07-FFD43409ADD8"/></UML:Attribute.default><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.4B47B68E-3D7B-1016-0544-663FBC9C4F73" owner="DCE.BCC8BD7B-990E-6462-156A-EDDC978EF75B" name="documentation">
+<UML:TaggedValue.dataValue>Component for our radio button used for defining the operation: division</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Attribute>
+<UML:Attribute xmi.id="DCE.1E2562F5-4B15-8031-DBD6-C12FEFBCCEF6" visibility="private" name="resultArea" type="DCE.79BF92F9-F7A7-213A-B3E3-1EEFE482371B" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.60425D16-E878-30F6-1725-BBF6236B82EE"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.8F0CA7BC-248F-68A0-A08B-ABBFFDDA1FEB"/></UML:Attribute.default><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.79B2A5DD-BA17-464F-0001-6C5102AE4646" owner="DCE.1E2562F5-4B15-8031-DBD6-C12FEFBCCEF6" name="documentation">
+<UML:TaggedValue.dataValue>Component for our text area used for displaying our results.</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Attribute>
+<UML:Operation xmi.id="DCE.3766A2D1-48AA-6258-CD12-6EB91FAAB64D" name="doPolynomial" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.6CB13FAD-9E31-CB12-4B52-6E484557E82B" type="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" direction="result" owner="DCE.3766A2D1-48AA-6258-CD12-6EB91FAAB64D"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.841E5144-0772-0417-BAB2-17E61C15F351"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.FCB7C172-86C5-24DB-F339-3E3C65D79676" type="DCE.67668000-8640-BC53-2BBA-7F553CE16E3F" name="s" owner="DCE.3766A2D1-48AA-6258-CD12-6EB91FAAB64D" alias="" direction="out" kind="addressOf"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.2F02633F-701C-90CA-FEF1-727A1FC0BA55"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.D89A2748-9B4C-F979-8D67-DE12D77A4E5E" owner="DCE.3766A2D1-48AA-6258-CD12-6EB91FAAB64D" name="documentation">
+<UML:TaggedValue.dataValue>&amp;#0;M&amp;#0;e&amp;#0;t&amp;#0;h&amp;#0;o&amp;#0;d&amp;#0; &amp;#0;c&amp;#0;o&amp;#0;n&amp;#0;v&amp;#0;e&amp;#0;r&amp;#0;t&amp;#0;s&amp;#0; &amp;#0;i&amp;#0;n&amp;#0;p&amp;#0;u&amp;#0;t&amp;#0; &amp;#0;(&amp;#0;S&amp;#0;t&amp;#0;r&amp;#0;i&amp;#0;n&amp;#0;g&amp;#0;)&amp;#0; &amp;#0;t&amp;#0;o&amp;#0; &amp;#0;a&amp;#0; 
+    &amp;#0;P&amp;#0;o&amp;#0;l&amp;#0;y&amp;#0;n&amp;#0;o&amp;#0;m&amp;#0;i&amp;#0;a&amp;#0;l&amp;#0; &amp;#0;o&amp;#0;b&amp;#0;j&amp;#0;e&amp;#0;c&amp;#0;t&amp;#0;
+&lt;br&gt;&amp;#0;P&amp;#0;a&amp;#0;r&amp;#0;a&amp;#0;m&amp;#0;e&amp;#0;t&amp;#0;e&amp;#0;r&amp;#0;s&amp;#0;:
+
+&lt;b&gt;s&lt;/b&gt; -&amp;#0; &amp;#0;i&amp;#0;s&amp;#0; &amp;#0;t&amp;#0;h&amp;#0;e&amp;#0; &amp;#0;S&amp;#0;t&amp;#0;r&amp;#0;i&amp;#0;n&amp;#0;g&amp;#0; &amp;#0;i&amp;#0;n&amp;#0;p&amp;#0;u&amp;#0;t&amp;#0; &amp;#0;w&amp;#0;h&amp;#0;i&amp;#0;c&amp;#0;h&amp;#0; &amp;#0;h&amp;#0;a&amp;#0;s&amp;#0; &amp;#0;t&amp;#0;o&amp;#0; 
+    &amp;#0;b&amp;#0;e&amp;#0; &amp;#0;c&amp;#0;o&amp;#0;n&amp;#0;v&amp;#0;e&amp;#0;r&amp;#0;t&amp;#0;e&amp;#0;d&amp;#0; &amp;#0;t&amp;#0;o&amp;#0; &amp;#0;a&amp;#0; &amp;#0;P&amp;#0;o&amp;#0;l&amp;#0;y&amp;#0;n&amp;#0;o&amp;#0;m&amp;#0;i&amp;#0;a&amp;#0;l&amp;#0; &amp;#0;O&amp;#0;b&amp;#0;j&amp;#0;e&amp;#0;c&amp;#0;t&amp;#0;</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.E9E6DF7B-73CA-C86F-9DC5-7D9B26CFC588" name="Main" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.AB7BD5D6-05AA-2DD4-14C8-4E1E5996B929" type="DCE.1A3CF310-D6E5-B654-2751-C4679C4DC572" direction="result" owner="DCE.E9E6DF7B-73CA-C86F-9DC5-7D9B26CFC588"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.EF75385A-1781-0718-D8F4-1BBB11C5DD4A"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.4A8757C5-04C0-03F7-D37E-3F0564F9D5DA" owner="DCE.E9E6DF7B-73CA-C86F-9DC5-7D9B26CFC588" name="documentation">
+<UML:TaggedValue.dataValue>M&amp;#0;a&amp;#0;i&amp;#0;n&amp;#0; &amp;#0;m&amp;#0;e&amp;#0;t&amp;#0;h&amp;#0;o&amp;#0;d&amp;#0;,&amp;#0; &amp;#0;t&amp;#0;h&amp;#0;i&amp;#0;s&amp;#0; &amp;#0;r&amp;#0;u&amp;#0;n&amp;#0;s&amp;#0; &amp;#0;t&amp;#0;h&amp;#0;e&amp;#0; &amp;#0;c&amp;#0;a&amp;#0;l&amp;#0;c&amp;#0;u&amp;#0;l&amp;#0;a&amp;#0;t&amp;#0;o&amp;#0;r&amp;#0; 
+    &amp;#0;</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.FAF3B2D3-9113-9C23-493B-062ECAAAB2E9" name="Calculator" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.D9646BE7-A6FC-D159-0540-E2E644B452EF" type="DCE.1A3CF310-D6E5-B654-2751-C4679C4DC572" direction="result" owner="DCE.FAF3B2D3-9113-9C23-493B-062ECAAAB2E9"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.7E17CFC9-427F-42A5-46B0-33028E2BC374"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.6D492DAC-DBF2-679A-DABF-4F5ED6F96B74" owner="DCE.FAF3B2D3-9113-9C23-493B-062ECAAAB2E9" name="documentation">
+<UML:TaggedValue.dataValue>Method creates the GUI for the calculator
+&lt;br&gt;Constructor for the class: inputs, and action button&lt;br&gt;</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation>
+<UML:TaggedValue xmi.id="DCE.061AAE33-49E6-6816-B149-93EE8B84EA62" owner="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D" name="documentation">
+<UML:TaggedValue.dataValue>P&amp;#0;o&amp;#0;l&amp;#0;y&amp;#0;n&amp;#0;o&amp;#0;m&amp;#0;i&amp;#0;a&amp;#0;l&amp;#0; &amp;#0;C&amp;#0;a&amp;#0;l&amp;#0;c&amp;#0;u&amp;#0;l&amp;#0;a&amp;#0;t&amp;#0;o&amp;#0;r&amp;#0; &amp;#0;c&amp;#0;l&amp;#0;a&amp;#0;s&amp;#0;s&amp;#0;</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Class>
+<UML:DataType xmi.id="DCE.22ABA9B9-99C2-B30A-78BC-4D9B07EC9D43" name="JTextField" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C"/>
+<UML:DataType xmi.id="DCE.1DA67F8E-4DA3-4B70-EDBF-A9CA200CC324" name="JRadioButton" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C"/>
+<UML:DataType xmi.id="DCE.79BF92F9-F7A7-213A-B3E3-1EEFE482371B" name="JTextArea" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C"/>
+<UML:Class xmi.id="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" name="Polynomial" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C" supplierDependency="DCE.991192B6-7F21-284E-E218-B1A9905F3A76"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.F3091309-8FB3-6755-0456-B2655267FF85" owner="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" name="documentation">
+<UML:TaggedValue.dataValue>Polynomial abstractization class with methods for plus, minus, sum and 
+    division operations&lt;br&gt;
+&lt;br&gt;&lt;u&gt;http://www.cs.princeton.edu/introcs/92symbolic/Polynomial.java.html&lt;/u&gt;</UML:TaggedValue.dataValue></UML:TaggedValue>
+<UML:Attribute xmi.id="DCE.CA2764A5-638C-7E10-4178-998D4AC1D21B" visibility="private" name="coef" type="DCE.34D1F50E-2F43-DDE3-752E-083F4ED11CAF" owner="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.BC6A493B-8D14-9ACB-E83A-CDE3DE178DBC"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.29E72FED-EF65-6732-D51B-759B047BDB54"/></UML:Attribute.default><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.4D695BB1-E616-E9EB-D056-3935C097A6C4" owner="DCE.CA2764A5-638C-7E10-4178-998D4AC1D21B" name="documentation">
+<UML:TaggedValue.dataValue>coefficients of the polynomial</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Attribute>
+<UML:Attribute xmi.id="DCE.7A233D0B-CEC2-C55B-A35A-47A05F8AD289" visibility="private" name="deg" type="DCE.373EE8D9-5C4B-6300-A5E7-02510D9E3168" owner="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.CA4CC09E-AECF-8965-0776-FD93A8500A9D"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.B70FF4CA-AD5C-6A97-78D7-0C42C7A617DF"/></UML:Attribute.default><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.15442343-C8BB-9821-56C9-3D99522DFDDD" owner="DCE.7A233D0B-CEC2-C55B-A35A-47A05F8AD289" name="documentation">
+<UML:TaggedValue.dataValue>degree of polynomial (0 for the zero polynomial)</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Attribute>
+<UML:Operation xmi.id="DCE.C1AB61A9-69E3-D0CE-7126-1EF16A0ED6BB" name="Polynomial" owner="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.5CEFB535-BB1D-3447-ADE2-5BF85B00B681" type="DCE.1A3CF310-D6E5-B654-2751-C4679C4DC572" direction="result" owner="DCE.C1AB61A9-69E3-D0CE-7126-1EF16A0ED6BB"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.FF0936AA-E26A-EEF3-F964-9851C10CF108"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.B658ECBF-444E-5F20-CE43-D3623488C4E8" type="DCE.373EE8D9-5C4B-6300-A5E7-02510D9E3168" name="a" owner="DCE.C1AB61A9-69E3-D0CE-7126-1EF16A0ED6BB" alias="" direction="out" kind="addressOf"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.975BC43B-AD23-B053-6FB9-2D2084D7FE12"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.609166B8-ECA9-CFE5-3AEA-077ECF68CD5A" type="DCE.373EE8D9-5C4B-6300-A5E7-02510D9E3168" name="b" owner="DCE.C1AB61A9-69E3-D0CE-7126-1EF16A0ED6BB" alias="" direction="out" kind="addressOf"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.DE562E6E-C4B8-4712-FDF1-FFC43AB81CEC"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.7368AA88-D081-BEB1-1FCD-696F584B514A" owner="DCE.C1AB61A9-69E3-D0CE-7126-1EF16A0ED6BB" name="documentation">
+<UML:TaggedValue.dataValue>Method calculates and returns a * x^b</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.1A31B7B1-BCF5-9EC9-4BD6-73F7B4E467DC" name="degree" owner="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.86582E36-9C16-F8DA-42DC-D592FF975F4B" type="DCE.373EE8D9-5C4B-6300-A5E7-02510D9E3168" direction="result" owner="DCE.1A31B7B1-BCF5-9EC9-4BD6-73F7B4E467DC"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.21B03772-7405-B2F2-DDC0-8D4C60A626E3"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.EF34A568-8691-CC2F-3F8E-94D15D619EA4" owner="DCE.1A31B7B1-BCF5-9EC9-4BD6-73F7B4E467DC" name="documentation">
+<UML:TaggedValue.dataValue>Method calculates and returns the degree of this polynomial (0 for the zero 
+    polynomial)</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.829E285E-A02C-0E22-47E8-67382ABF9ED2" name="plus" owner="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.19C0D91B-9EC2-3162-6183-A99973A14931" type="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" direction="result" owner="DCE.829E285E-A02C-0E22-47E8-67382ABF9ED2"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.280AD072-E46E-E3A3-1749-F144E5C95DD3"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.4D39B3A5-EE9E-0D4A-815B-410F0636A3E3" type="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" name="b" owner="DCE.829E285E-A02C-0E22-47E8-67382ABF9ED2" alias="" direction="out" kind="addressOf"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.B24891F5-3908-CDAC-6DBC-20B34945932C"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.1E0CCC9D-D85A-C652-032A-5E9DBD2EE36B" owner="DCE.829E285E-A02C-0E22-47E8-67382ABF9ED2" name="documentation">
+<UML:TaggedValue.dataValue>Method calculates and returns c = a + b</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.C5492803-5C8C-0404-6471-D35A5D4DCED0" name="minus" owner="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.186C37AC-E7E4-80C2-D47A-9DF4E8765E97" type="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" direction="result" owner="DCE.C5492803-5C8C-0404-6471-D35A5D4DCED0"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.6D12CDDD-310B-4244-7254-A3E2BDD06617"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.B32BB092-980B-506B-A74A-7A8F0CA3AFC9" type="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" name="b" owner="DCE.C5492803-5C8C-0404-6471-D35A5D4DCED0" alias="" direction="out" kind="addressOf"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.406EFC98-D1AA-C576-8EA1-E397FC10C16A"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.3CCFAC16-FFA3-96C1-EE3D-AA00B415E5AB" owner="DCE.C5492803-5C8C-0404-6471-D35A5D4DCED0" name="documentation">
+<UML:TaggedValue.dataValue>Method calculates and returns (a - b)</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.38E1EA68-1F54-DBBC-77B5-8AD2A9B98FAE" name="times" owner="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.783E78AA-DF2A-9324-5E84-0D76BDA3B1E7" type="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" direction="result" owner="DCE.38E1EA68-1F54-DBBC-77B5-8AD2A9B98FAE"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.F2A65C8D-9559-3457-E0E9-45784F4C7FC2"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.E6A24055-822B-1FEE-9421-860BBBFE5A6C" type="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" name="b" owner="DCE.38E1EA68-1F54-DBBC-77B5-8AD2A9B98FAE" alias="" direction="out" kind="addressOf"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.FA30ED3B-FA04-D45D-24D1-2E9DEB6B0EC6"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.C0C6DEE8-5111-A53B-AA8A-2B05A8AE66C3" owner="DCE.38E1EA68-1F54-DBBC-77B5-8AD2A9B98FAE" name="documentation">
+<UML:TaggedValue.dataValue>Method calculates and returns (a * b)</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.77B48399-5D2F-3D82-B065-82695FB25AD0" name="division" owner="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.F4CCB75E-10B8-BEAF-A9B1-D821788E7089" type="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" direction="result" owner="DCE.77B48399-5D2F-3D82-B065-82695FB25AD0"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.00E666AD-E26C-A679-0088-37EED737955F"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.BE7985A8-165B-B17E-D878-DB23C30D0B24" type="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77" name="b" owner="DCE.77B48399-5D2F-3D82-B065-82695FB25AD0" alias="" direction="out" kind="addressOf"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.D780F62B-0706-2E51-1C6D-60EAF243ACA1"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.F434BEA3-54BB-014D-9F59-FF23557CF14C" owner="DCE.77B48399-5D2F-3D82-B065-82695FB25AD0" name="documentation">
+<UML:TaggedValue.dataValue>Method calculates and returns (a / b)&lt;br&gt;Using the Ruffini's algorithm, 
+    yet uncomplete&lt;br&gt;&lt;u&gt;http://en.wikipedia.org/wiki/Ruffini%27s_rule&lt;/u&gt;</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.6961F7C3-30F9-7C2A-66CD-A59D84E343CB" name="toString" owner="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.36BD7EC0-245E-AB25-8B47-4A3D4BD937F6" type="DCE.67668000-8640-BC53-2BBA-7F553CE16E3F" direction="result" owner="DCE.6961F7C3-30F9-7C2A-66CD-A59D84E343CB"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.8EC16928-935E-E226-FE32-89921E4068BF"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:TaggedValue xmi.id="DCE.CCC5421F-5153-7B7D-DA79-1EA576D9D853" owner="DCE.6961F7C3-30F9-7C2A-66CD-A59D84E343CB" name="documentation">
+<UML:TaggedValue.dataValue>Method converts Polynomial to string representation</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement><UML:Element.presentation>
+
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:DataType xmi.id="DCE.67668000-8640-BC53-2BBA-7F553CE16E3F" name="String" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C"/>
+<UML:DataType xmi.id="DCE.34D1F50E-2F43-DDE3-752E-083F4ED11CAF" name="int[]" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C"/>
+
+<UML:Dependency xmi.id="DCE.991192B6-7F21-284E-E218-B1A9905F3A76" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C" client="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D" supplier="DCE.4F097DB4-7846-3B57-D247-1D86EDF77E77"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Comment xmi.id="DCE.DED38374-58B7-F442-D952-16AB49BC1130" owner="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C" annotatedElement="DCE.D62A7E39-485A-B2CF-DB9A-A890C131378D"><UML:Element.presentation>
+
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.B5189556-310B-1ECD-06C3-66FD8A27CB81" owner="DCE.DED38374-58B7-F442-D952-16AB49BC1130" name="documentation">
+<UML:TaggedValue.dataValue>Calculator class uses directly the Polynomial class. Calculator class only 
+    serves as a controller for the Polynomial model.
+&lt;br&gt;
+&lt;br&gt;Calculator class constructor &amp;quot;Calculator()&amp;quot; is also the view if tacking 
+    the project from the MVC point of view.</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:Comment>
+
+</UML:Element.ownedElement><UML:Package.packageImport>
+<UML:PackageImport xmi.id="DCE.C5E2841E-69B7-E9B0-9E6F-6E55DA48AF27" importingPackage="DCE.137244F8-7C7A-3E46-6356-1F07E90FD66C"><UML:PackageImport.importedPackage>
+<UML:Profile xmi.id="DCE.1F4AAAF4-4B51-7EDB-7D4E-1DC45FE55C61" name="Unnamed" isCloned="true" href="./jpolycalc.etup#//*[@xmi.id=&apos;DCE.1F4AAAF4-4B51-7EDB-7D4E-1DC45FE55C61&apos;]" isDirty="false"/></UML:PackageImport.importedPackage><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.F52EE4FC-889C-A57C-3D7E-F6B28BBE05FD" owner="DCE.C5E2841E-69B7-E9B0-9E6F-6E55DA48AF27" name="autoCreated">
+<UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:PackageImport></UML:Package.packageImport></UML:Project></XMI.content> </XMI>
