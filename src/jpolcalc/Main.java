@@ -17,7 +17,6 @@ public class Main {
         // Born a new runnable
         EventQueue.invokeLater(new Runnable() {
 
-            @Override
             public void run() {
                 // L&F, be nice on chosing look
                 try {

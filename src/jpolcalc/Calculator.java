@@ -27,6 +27,7 @@ public class Calculator extends javax.swing.JFrame {
     JRadioButton minRButton = new javax.swing.JRadioButton();
     JRadioButton multRButton = new javax.swing.JRadioButton();
     JRadioButton difRButton = new javax.swing.JRadioButton();
+    JRadioButton auxRButton = new javax.swing.JRadioButton();
 
     // Component for output
     JTextArea resultArea = new javax.swing.JTextArea();
@@ -53,6 +54,7 @@ public class Calculator extends javax.swing.JFrame {
         minRButton.setText("Scădere");
         multRButton.setText("Înmulțire");
         difRButton.setText("Împărțire");
+        auxRButton.setText("Derivata");
 
         // Button Group for our radio buttons
         ButtonGroup rbGroup = new javax.swing.ButtonGroup();
@@ -60,6 +62,7 @@ public class Calculator extends javax.swing.JFrame {
             rbGroup.add(minRButton);
             rbGroup.add(multRButton);
             rbGroup.add(difRButton);
+            rbGroup.add(auxRButton);
 
         // Components for our start button
         JButton startButton = new javax.swing.JButton();
@@ -112,6 +115,7 @@ public class Calculator extends javax.swing.JFrame {
                             .addComponent(minRButton)
                             .addComponent(multRButton)
                             .addComponent(difRButton)
+                            .addComponent(auxRButton)
                         )
                         .addComponent(startButton)
                         .addComponent(resultArea)
@@ -134,6 +138,7 @@ public class Calculator extends javax.swing.JFrame {
                         .addComponent(minRButton)
                         .addComponent(multRButton)
                         .addComponent(difRButton)
+                        .addComponent(auxRButton)
                     )
                 )
                 .addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
@@ -185,7 +190,8 @@ public class Calculator extends javax.swing.JFrame {
                     tempC = Integer.valueOf(tempS[0]);
                     tempD = Integer.valueOf(tempS[1]);
                     // Add values to our polynomial
-                    p = p.plus(new Polynomial(tempC, tempD));
+                    Polynomial tmp = new Polynomial(tempC, tempD);
+                    p = p.plus(tmp);
             }
         return p;
     }
@@ -236,6 +242,16 @@ public class Calculator extends javax.swing.JFrame {
             else if(c.multRButton.isSelected()) {
                 c.resultArea.setText("Se face înmulțirea:\n");
                 r = pol1.times(pol2);
+                c.resultArea.append(r.toString());
+                c.resultArea.append("\nTerminat");
+            }
+            else if(c.auxRButton.isSelected()) {
+                c.resultArea.setText("Se face derivata pol. #1:\n");
+                r = pol1.differentiate();
+                c.resultArea.append(r.toString());
+                c.resultArea.append("\n");
+                c.resultArea.append("Se face derivata pol. #2:\n");
+                r = pol2.differentiate();
                 c.resultArea.append(r.toString());
                 c.resultArea.append("\nTerminat");
             }
